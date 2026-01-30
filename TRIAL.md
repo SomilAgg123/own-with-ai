@@ -84,15 +84,31 @@ Train EAs to create **agent-ready SOPs** as a byproduct of doing their work—no
 
 ### Decision 6: Define "Agent-Ready SOP" Template
 - **Decision**: Explicitly define what makes an SOP "agent-ready" vs just "documented"
-- **Status**: Action item - iterate on template structure
-- **Draft criteria**:
+- **Status**: ✅ Complete - templates created in `/templates/`
+- **Template structure**:
   - Explicit triggers (what kicks it off)
-  - Clear inputs with formats
-  - Numbered steps with decision points marked
-  - Decision criteria (not "use judgment")
-  - Defined outputs
+  - Clear inputs with formats (table)
+  - Numbered steps with decision points marked (⚠️)
+  - Decision criteria as condition/action tables (not "use judgment")
+  - Defined outputs (table with destinations)
   - Escalation triggers (when human intervenes)
-  - Quality check criteria
+  - Quality check criteria (checklist)
+  - Error handling (table)
+  - Version history
+
+### Decision 7: Execution Trace for Agent Runs
+- **Decision**: Create a separate "execution trace" document that agents fill out during execution
+- **Rationale**: Separates the SOP (instructions) from the execution log (what actually happened). Enables debugging, improvement, and human handoff.
+- **Status**: ✅ Complete - template created in `/templates/`
+- **Trace structure**:
+  - Run metadata (ID, timestamps, status, operator)
+  - Input snapshot
+  - Step-by-step log with timestamps, actions, observations, confidence levels
+  - Decision point analysis (conditions evaluated, reasoning)
+  - Escalations table
+  - Anomalies and patterns noted
+  - Output summary
+  - Self-assessment and improvement suggestions
 
 ---
 
@@ -136,7 +152,9 @@ The intake form is live at `/process-intake.html`. Here are the questions we ask
 ### Immediate
 - [x] Create process intake question set
 - [x] Add intake form to website (process-intake.html)
-- [ ] Define agent-ready SOP template structure
+- [x] Define agent-ready SOP template structure (`/templates/sop-template.md`)
+- [x] Create execution trace template (`/templates/execution-trace-template.md`)
+- [x] Create example SOP + trace for Client Intake (`/templates/examples/`)
 - [ ] Select specific process to pilot (after intake)
 
 ### During Pilot
@@ -170,6 +188,7 @@ The intake form is live at `/process-intake.html`. Here are the questions we ask
 | **Agent-Ready SOP** | A standard operating procedure written explicitly enough that an AI agent can execute it (with defined decision points for human input) |
 | **Human-in-the-Loop** | Points in a process where human judgment is required; the EA's role in an automated workflow |
 | **Prepared Mind** | Approaching work with awareness of automation opportunities; the mindset we train |
+| **Execution Trace** | A log of what an agent actually did during a process run—actions, decisions, reasoning, anomalies—for debugging and improvement |
 
 ---
 
@@ -179,6 +198,7 @@ The intake form is live at `/process-intake.html`. Here are the questions we ask
 |------|--------|--------|
 | 2025-01-29 | Initial creation with pilot context and decisions | Claude + Somil |
 | 2025-01-29 | Added process intake questions; created process-intake.html form | Claude + Somil |
+| 2025-01-29 | Created agent-ready SOP template, execution trace template, and Client Intake example | Claude + Somil |
 
 ---
 

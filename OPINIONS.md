@@ -28,11 +28,13 @@ We believe AI doesn't replace great EAs—it elevates them. The assistants who e
 
 ### For Clients
 
-1. **Too busy doing tasks to build systems.** Founders and executives know AI could help, but they don't have time to figure it out. They're stuck in a loop of reactive task execution.
+1. **Documentation debt is blocking AI adoption.** Most businesses either don't have SOPs, or their SOPs are outdated. Writing new ones feels like overhead. But AI agents need explicit instructions to operate—they can't work from tribal knowledge. This creates a catch-22: you need documentation to use AI, but you don't have time to create it.
 
-2. **Traditional EAs don't touch processes.** A typical EA handles your inbox but won't redesign your workflows. You need someone who thinks in systems, not just tasks.
+2. **Too busy doing tasks to build systems.** Founders and executives know AI could help, but they don't have time to figure it out. They're stuck in a loop of reactive task execution.
 
-3. **AI expertise is expensive and scarce.** Hiring an automation consultant or AI strategist costs $200+/hour and doesn't help with daily execution.
+3. **Traditional EAs don't touch processes.** A typical EA handles your inbox but won't redesign your workflows. You need someone who thinks in systems, not just tasks.
+
+4. **AI expertise is expensive and scarce.** Hiring an automation consultant or AI strategist costs $200+/hour and doesn't help with daily execution.
 
 ---
 
@@ -50,6 +52,10 @@ Other agencies vet and match. We *transform*.
 **Own With AI**: We train EAs in a specific AI workflow methodology, then match them with clients who want transformation—not just task execution.
 
 Our moat is the curriculum. The supply of truly AI-enabled EAs is constrained because the training doesn't exist elsewhere.
+
+### The Documentation Debt Angle
+
+We solve documentation debt as a byproduct, not a project. Our EAs create **agent-ready SOPs** while doing their normal work—not as a separate documentation task. The result: clients get task execution TODAY plus documented, automatable processes for TOMORROW.
 
 ---
 
@@ -146,6 +152,8 @@ You're not just hiring task execution. You're hiring someone who:
 - "Your EA handles tasks. Our EAs build systems."
 - "Task execution + workflow transformation in one"
 - "The EAs who master AI workflows will command premium rates"
+- "Pay off your documentation debt without writing a single SOP"
+- "Agent-ready operations as a byproduct, not a project"
 
 ### Sample Phrases We'd Avoid
 - "Leverage synergies to optimize your workflow paradigm"
@@ -163,6 +171,7 @@ You're not just hiring task execution. You're hiring someone who:
 3. **No-code automation building** - Zapier, Make, prompt libraries, tool integrations
 4. **EA career evolution** - Moving from admin to strategic partner
 5. **The delegation mindset** - For clients: how to work with an AI-enabled EA
+6. **Agent-ready operations** - Creating SOPs that AI can actually execute (documentation debt)
 
 ### Topics We Avoid
 - General productivity tips (oversaturated)
@@ -252,6 +261,20 @@ This document was informed by research including:
 - [Why Do Executive Assistants Leave?](https://boldly.com/blog/why-do-executive-assistants-leave/)
 - [Pain Points for Executive Assistants](https://www.itilite.com/blog/pain-point-for-executive-assistants/)
 - Analysis of BELAY, Boldly, and Athena business models
+
+---
+
+---
+
+## Key Terminology
+
+| Term | Definition |
+|------|------------|
+| **Documentation Debt** | The gap between how a business actually operates and what's written down; blocks AI adoption |
+| **Agent-Ready SOP** | A standard operating procedure written explicitly enough that an AI agent can execute it (with defined decision points for human input) |
+| **Human-in-the-Loop** | Points in a process where human judgment is required; the EA's role in an automated workflow |
+| **Prepared Mind** | Approaching work with awareness of automation opportunities; the mindset we train |
+| **Execution Trace** | A log of what an agent actually did during a process run—for debugging, improvement, and handoff |
 
 ---
 
