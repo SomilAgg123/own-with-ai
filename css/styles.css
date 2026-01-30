@@ -1241,3 +1241,184 @@ ul, ol {
 .hero--ea .trust-icon {
     color: var(--color-primary-light);
 }
+
+/* --------------------------------------------------------------------------
+   Compact Hero Variant (for internal pages)
+   -------------------------------------------------------------------------- */
+.hero--compact {
+    padding: calc(var(--nav-height) + var(--spacing-3xl)) 0 var(--spacing-2xl);
+    background: var(--gradient-subtle);
+}
+
+.hero--compact .hero-title {
+    font-size: var(--font-size-4xl);
+}
+
+.hero--compact .hero-subtitle {
+    font-size: var(--font-size-lg);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .hero--compact .hero-title {
+        font-size: var(--font-size-2xl);
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Form Sections (multi-part forms)
+   -------------------------------------------------------------------------- */
+.form--sections {
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+}
+
+.form-section {
+    background: var(--color-white);
+    padding: var(--spacing-2xl);
+    border-radius: var(--radius-2xl);
+    box-shadow: var(--shadow-md);
+    margin-bottom: var(--spacing-xl);
+}
+
+.form-section:last-of-type {
+    margin-bottom: var(--spacing-2xl);
+}
+
+.form-section-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+    padding-bottom: var(--spacing-lg);
+    border-bottom: 1px solid var(--color-gray-100);
+}
+
+.form-section-number {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-base);
+    font-weight: 700;
+    color: var(--color-white);
+    background: var(--gradient-primary);
+    border-radius: var(--radius-full);
+}
+
+.form-section-title {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    color: var(--color-gray-900);
+}
+
+/* --------------------------------------------------------------------------
+   Radio Groups
+   -------------------------------------------------------------------------- */
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-md);
+    background: var(--color-gray-50);
+    border: 2px solid transparent;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.radio-label:hover {
+    background: var(--color-gray-100);
+}
+
+.radio-label:has(input:checked) {
+    background: rgba(99, 102, 241, 0.05);
+    border-color: var(--color-primary);
+}
+
+.radio-label input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--color-primary);
+}
+
+.radio-text {
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-700);
+}
+
+/* --------------------------------------------------------------------------
+   Radio Cards (larger clickable options)
+   -------------------------------------------------------------------------- */
+.radio-group--cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-md);
+}
+
+@media (max-width: 768px) {
+    .radio-group--cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+.radio-card {
+    position: relative;
+    display: block;
+    padding: var(--spacing-lg);
+    background: var(--color-white);
+    border: 2px solid var(--color-gray-200);
+    border-radius: var(--radius-xl);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.radio-card:hover {
+    border-color: var(--color-gray-300);
+    box-shadow: var(--shadow-md);
+}
+
+.radio-card:has(input:checked) {
+    border-color: var(--color-primary);
+    background: rgba(99, 102, 241, 0.02);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.radio-card input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.radio-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.radio-card-title {
+    font-size: var(--font-size-base);
+    font-weight: 700;
+    color: var(--color-gray-900);
+}
+
+.radio-card:has(input:checked) .radio-card-title {
+    color: var(--color-primary);
+}
+
+.radio-card-desc {
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-500);
+    line-height: 1.5;
+}

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Document your business process for AI transformation. We'll help you identify automation opportunities and create agent-ready workflows.">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ownwithai.com/process-intake.html">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Process Intake | Own With AI">
+    <meta property="og:description" content="Document your business process for AI transformation. We'll help you identify automation opportunities.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ownwithai.com/process-intake.html">
+    <meta property="og:image" content="https://ownwithai.com/assets/images/og-image.svg">
+    <meta property="og:site_name" content="Own With AI">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Process Intake | Own With AI">
+    <meta name="twitter:description" content="Document your business process for AI transformation.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon-32x32.svg">
+    <link rel="icon" type="image/svg+xml" sizes="16x16" href="/assets/images/favicon-16x16.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.svg">
+
+    <!-- Theme color -->
+    <meta name="theme-color" content="#6366f1">
+
+    <title>Process Intake | Own With AI</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Own With AI</a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-menu">
+                <a href="index.html#how-it-works" class="nav-link">How It Works</a>
+                <a href="index.html#pricing" class="nav-link">Pricing</a>
+                <a href="for-eas.html" class="nav-link">For EAs</a>
+                <a href="index.html#client-form" class="nav-btn nav-btn--primary">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero hero--compact">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Document Your <span class="gradient-text">Process</span></h1>
+                <p class="hero-subtitle">Tell us about a business process you want to transform. We'll identify automation opportunities and help you build agent-ready workflows.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Intake Form -->
+    <section class="section section--form">
+        <div class="container container--narrow">
+            <form class="form form--sections" action="https://formspree.io/f/xpqdnjyd" method="POST">
+                <input type="hidden" name="_subject" value="Process Intake - Own With AI">
+                <input type="hidden" name="form_type" value="process_intake">
+
+                <!-- Section 1: Process Overview -->
+                <div class="form-section">
+                    <div class="form-section-header">
+                        <span class="form-section-number">1</span>
+                        <h2 class="form-section-title">Process Overview</h2>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="process-name" class="form-label">What is this process called? *</label>
+                        <p class="form-hint">Give it a name (e.g., "Client Intake", "Candidate Sourcing", "Weekly Reporting")</p>
+                        <input type="text" id="process-name" name="process_name" class="form-input" placeholder="e.g., Client Discovery Call" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="process-purpose" class="form-label">In one sentence, what does this process accomplish? *</label>
+                        <input type="text" id="process-purpose" name="process_purpose" class="form-input" placeholder="e.g., Turn a discovery call into a documented job brief and pricing agreement" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">How often does this process happen? *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="process_frequency" value="multiple_daily" required>
+                                <span class="radio-text">Multiple times per day</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="process_frequency" value="daily">
+                                <span class="radio-text">Daily</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="process_frequency" value="few_weekly">
+                                <span class="radio-text">A few times per week</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="process_frequency" value="weekly">
+                                <span class="radio-text">Weekly</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="process_frequency" value="monthly_or_less">
+                                <span class="radio-text">Monthly or less</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Who currently does this process? *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="process_owner" value="owner" required>
+                                <span class="radio-text">Me (the business owner)</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="process_owner" value="specific_team_member">
+                                <span class="radio-text">A specific team member</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="process_owner" value="multiple_people">
+                                <span class="radio-text">Multiple people</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="process_owner" value="varies">
+                                <span class="radio-text">It varies / not consistent</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">How long does it typically take (per instance)? *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="process_duration" value="under_15" required>
+                                <span class="radio-text">Under 15 minutes</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="process_duration" value="15_30">
+                                <span class="radio-text">15-30 minutes</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="process_duration" value="30_60">
+                                <span class="radio-text">30-60 minutes</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="process_duration" value="1_2_hours">
+                                <span class="radio-text">1-2 hours</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="process_duration" value="more_than_2">
+                                <span class="radio-text">More than 2 hours</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 2: Process Details -->
+                <div class="form-section">
+                    <div class="form-section-header">
+                        <span class="form-section-number">2</span>
+                        <h2 class="form-section-title">Process Details</h2>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="process-trigger" class="form-label">What triggers this process to start? *</label>
+                        <p class="form-hint">e.g., "A client books a discovery call", "We get a new job posting to fill", "Monday morning"</p>
+                        <input type="text" id="process-trigger" name="process_trigger" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="process-inputs" class="form-label">What inputs are needed to do this process? *</label>
+                        <p class="form-hint">List all information/materials needed before starting (e.g., "Call notes", "LinkedIn profile URL", "Email from client")</p>
+                        <textarea id="process-inputs" name="process_inputs" class="form-input form-textarea" rows="3" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="process-steps" class="form-label">Walk through the steps. What happens from start to finish? *</label>
+                        <p class="form-hint">Don't worry about formatting—just describe what you do in order. Include any decisions you make along the way.</p>
+                        <textarea id="process-steps" name="process_steps" class="form-input form-textarea" rows="8" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">What tools/systems do you use during this process?</label>
+                        <div class="checkbox-grid">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="tools[]" value="email">
+                                <span class="checkbox-text">Email (Gmail, Outlook)</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="tools[]" value="google_docs_sheets">
+                                <span class="checkbox-text">Google Docs/Sheets</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="tools[]" value="linkedin">
+                                <span class="checkbox-text">LinkedIn / LinkedIn Recruiter</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="tools[]" value="crm_ats">
+                                <span class="checkbox-text">CRM or ATS</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="tools[]" value="calendar">
+                                <span class="checkbox-text">Calendar</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="tools[]" value="slack_teams">
+                                <span class="checkbox-text">Slack / Teams</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="tools[]" value="chatgpt_claude">
+                                <span class="checkbox-text">ChatGPT / Claude</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="tools[]" value="other">
+                                <span class="checkbox-text">Other</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tools-other" class="form-label">If "Other", please specify:</label>
+                        <input type="text" id="tools-other" name="tools_other" class="form-input">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="process-outputs" class="form-label">What are the outputs / deliverables of this process? *</label>
+                        <p class="form-hint">e.g., "A completed job brief document", "A list of 10 qualified candidates", "A sent email to the client"</p>
+                        <textarea id="process-outputs" name="process_outputs" class="form-input form-textarea" rows="3" required></textarea>
+                    </div>
+                </div>
+
+                <!-- Section 3: Quality vs Throughput -->
+                <div class="form-section">
+                    <div class="form-section-header">
+                        <span class="form-section-number">3</span>
+                        <h2 class="form-section-title">Quality vs. Throughput</h2>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Is this process more about quality or quantity? *</label>
+                        <div class="radio-group radio-group--cards">
+                            <label class="radio-card">
+                                <input type="radio" name="quality_throughput" value="quality" required>
+                                <span class="radio-card-content">
+                                    <span class="radio-card-title">Quality</span>
+                                    <span class="radio-card-desc">Getting it right matters more than getting it done fast (e.g., client proposals, candidate presentations)</span>
+                                </span>
+                            </label>
+                            <label class="radio-card">
+                                <input type="radio" name="quality_throughput" value="throughput">
+                                <span class="radio-card-content">
+                                    <span class="radio-card-title">Throughput</span>
+                                    <span class="radio-card-desc">Volume matters; we need to do this faster/more often (e.g., sourcing candidates, initial outreach)</span>
+                                </span>
+                            </label>
+                            <label class="radio-card">
+                                <input type="radio" name="quality_throughput" value="both">
+                                <span class="radio-card-content">
+                                    <span class="radio-card-title">Both</span>
+                                    <span class="radio-card-desc">Some parts need quality, some parts need speed</span>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quality-parts" class="form-label">If "Both": Which parts require high-quality input vs. which are more about volume?</label>
+                        <textarea id="quality-parts" name="quality_parts" class="form-input form-textarea" rows="3" placeholder="High-quality parts: ...&#10;Volume/throughput parts: ..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="decision-info" class="form-label">What information do you use to make decisions during this process? *</label>
+                        <p class="form-hint">e.g., "Years of experience", "Client's budget", "Gut feel from the conversation"</p>
+                        <textarea id="decision-info" name="decision_info" class="form-input form-textarea" rows="3" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="rules-criteria" class="form-label">Are there any rules or criteria you follow (even if informal)?</label>
+                        <p class="form-hint">e.g., "We don't present candidates with less than 5 years experience for senior roles"</p>
+                        <textarea id="rules-criteria" name="rules_criteria" class="form-input form-textarea" rows="3"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="errors" class="form-label">What could go wrong in this process? What errors have happened?</label>
+                        <p class="form-hint">e.g., "Forgetting to follow up", "Misunderstanding client requirements", "Sending wrong candidate info"</p>
+                        <textarea id="errors" name="errors" class="form-input form-textarea" rows="3"></textarea>
+                    </div>
+                </div>
+
+                <!-- Section 4: Pain Points -->
+                <div class="form-section">
+                    <div class="form-section-header">
+                        <span class="form-section-number">4</span>
+                        <h2 class="form-section-title">Pain Points</h2>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="time-waste" class="form-label">Where do you feel like you're wasting the most time? *</label>
+                        <textarea id="time-waste" name="time_waste" class="form-input form-textarea" rows="4" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="must-stay-manual" class="form-label">Is there anything about this process that MUST stay manual / human-controlled? *</label>
+                        <p class="form-hint">e.g., "Final approval on candidate presentation", "Pricing negotiation"</p>
+                        <textarea id="must-stay-manual" name="must_stay_manual" class="form-input form-textarea" rows="3" required></textarea>
+                    </div>
+                </div>
+
+                <!-- Section 5: Documentation Status -->
+                <div class="form-section">
+                    <div class="form-section-header">
+                        <span class="form-section-number">5</span>
+                        <h2 class="form-section-title">Documentation Status</h2>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Is this process documented anywhere today? *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="documentation_status" value="none" required>
+                                <span class="radio-text">No, it's all in my head</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="documentation_status" value="partial">
+                                <span class="radio-text">Partially—some notes exist</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="documentation_status" value="outdated">
+                                <span class="radio-text">Yes, but it's outdated</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="documentation_status" value="current">
+                                <span class="radio-text">Yes, and it's current</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="documentation-location" class="form-label">If documentation exists, where is it?</label>
+                        <input type="text" id="documentation-location" name="documentation_location" class="form-input" placeholder="Link or location">
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="form-section">
+                    <div class="form-section-header">
+                        <span class="form-section-number">6</span>
+                        <h2 class="form-section-title">Your Information</h2>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contact-name" class="form-label">Your Name *</label>
+                            <input type="text" id="contact-name" name="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email" class="form-label">Email *</label>
+                            <input type="email" id="contact-email" name="email" class="form-input" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact-company" class="form-label">Company / Business Name</label>
+                        <input type="text" id="contact-company" name="company" class="form-input">
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn--primary btn--large btn--full">Submit Process for Review</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">Own With AI</a>
+                    <p class="footer-tagline">AI-skilled EAs + Expert Coaching</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html#how-it-works">How It Works</a>
+                    <a href="index.html#pricing">Pricing</a>
+                    <a href="for-eas.html">For EAs</a>
+                </div>
+                <div class="footer-contact">
+                    <a href="mailto:hello@ownwithai.com">hello@ownwithai.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Own With AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
